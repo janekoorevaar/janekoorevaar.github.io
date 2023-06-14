@@ -6,21 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Jane">
     <title>Jane Koorevaar</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <!-- links stylecss to this html file -->
 </head>
 <body>
     <!--everthing you want people to see goes between these two tags  -->
-    <h1>Jane Koorevaar</h1> 
+    <h1>JANE KOOREVAAR</h1> 
     <!-- h1 is the biggest heading, h6 is the smallest -->
+    
+<div class="grid-container">
+ <div class="informationcolumn">
     <p>Hi, I'm Jane. I am a design student and artist. </p>
     <!-- p is paragraph -->
-    <p>I study the master <em>Integrated Product Design</em>, at the <strong>TU Delft.</strong></p>
+    <p>I study the master <em>Integrated Product Design</em>, at the <strong id="tudelft" class="university"></strong> TU Delft.</strong></p>
     <!-- em makes text italic, strong makes text bold -->
-    <p><a href="https://www.instagram.com/sketching_jane/">Instagram</a>
-    <a href= "mailto:sketchingjane@gmail.com">Email me</a>
-    <a href="./CV 13032023.pdf" target="_blank">My CV</a></p>
-    <!-- target blank creates new tab -->
-    <img src="./profielfoto no background.png" alt="Headshot of Jane" width="300">
-    <!-- img does not need closing tab -->
+    <p>
+    <a class="button"href="https://www.instagram.com/sketching_jane/" target="_blank">Instagram</a>
+    <a class="button"href= "mailto:sketchingjane@gmail.com" target="_blank">Email me</a>
+    <a class="button"href="./CV 13032023.pdf" target="_blank">My CV</a></p>
+    <!-- target blank creates new tab --> 
+</div>
+
+<div class="picturecolumn">
+    <img src="./profielfoto no background.png" alt="Headshot of Jane" width="300"/>
+    <!-- img does not need closing tab --> </div>
+
+</div>
 
 </body>
 </html>
